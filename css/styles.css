@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-jean-responsive {
+    display: none;
+}
+
+.span {
+    display: none;
+}
+
+.blue-jeans-global {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #303447;
+}
+
+.blue-jeans {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 950px;
+}
+
+.title-and-text-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 166px;
+}
+
+.title-wtf {
+    font-family: 'Bitter';
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+}
+
+.ab-solution {
+    font-family: 'Bitter';
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    padding-top: 6px;
+    color: #FFFFFF;
+}
+
+.display-jean {
+    display: flex;
+    padding-top: 46px;
+    justify-content: space-around;
+}
+
+.text-left {
+    max-width: 315px;
+    width: 100%;
+}
+
+.function, .fashion, .features, .finish {
+    font-family: 'Bitter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.011em;
+    padding-bottom: 15px;
+    color: #ACBFD8;
+}
+
+.function-text, .fashion-text, .features-text, .finish-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+}
+
+.explore-function-left, .explore-fashion-left, .explore-features-rigth, .explore-finish-rigth {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+}
+
+.function-left {
+    padding-bottom: 73px;
+}
+
+.features-rigth {
+    padding-bottom: 40px;
+}
+
+.text-left, .text-rigth {
+    padding-top: 20px;
+}
+
+.text-rigth {
+    max-width: 315px;
+    width: 100%;
+}
+
+.img-jeans > img {
+    mix-blend-mode: overlay;
+    height: 490px;
+    width: 395px;
+}
+
+@media (max-width: 850px) {
+    .display-jean {
+        display: block;
+        padding: 0px 20px;
+    }
+    .img-jean-responsive {
+        display: flex;
+        justify-content: center;
+        min-height: 418px;
+        max-width: 375px;
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px;
+    }
+    .img-jean-responsive > img {
+        min-height: 418px;
+        max-width: 375px;
+        width: 100%;
+    }
+    .img-jeans {
+        display: none;
+    }
+    span {
+        height: 28px;
+        width: 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px transparent;
+        border-radius: 50%;
+        background: rgba(172, 191, 216, 0.4);
+        font-family: 'Bitter';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.011em;
+        color: #FFFFFF;
+        margin-right: 16px;
+    }
+    .function, .fashion, .features, .finish {
+        display: flex;
+        align-items: center;
+    }
+    .title-wtf {
+        font-size: 50px;
+    }
+    .ab-solution {
+        font-size: 18px;
+    }
+}
