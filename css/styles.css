@@ -1,170 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-.img-jean-responsive {
-    display: none;
-}
-
-.span {
-    display: none;
-}
-
-.blue-jeans-global {
+.taco-footer {
     display: flex;
-    justify-content: center;
     width: 100%;
-    background: #303447;
+    background: #F47D34;
+    justify-content: center;
 }
 
-.blue-jeans {
+.taco-contain {
     max-width: 1440px;
     width: 100%;
-    min-height: 950px;
-}
-
-.title-and-text-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 166px;
+    position: relative;
+    min-height: 481px;
+    overflow: hidden;
 }
 
-.title-wtf {
-    font-family: 'Bitter';
-    font-size: 75px;
-    font-weight: 500;
-    line-height: 90px;
-    letter-spacing: -0.011em;
+.fala {
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
     color: #FFFFFF;
+    padding-top: 43px;
 }
 
-.ab-solution {
-    font-family: 'Bitter';
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 34px;
-    letter-spacing: -0.011em;
-    text-align: center;
-    padding-top: 6px;
-    color: #FFFFFF;
-}
-
-.display-jean {
+.button-variety {
+    min-height: 50px;
+    max-width: 277px;
+    width: 100%;
     display: flex;
-    padding-top: 46px;
-    justify-content: space-around;
-}
-
-.text-left {
-    max-width: 315px;
-    width: 100%;
-}
-
-.function, .fashion, .features, .finish {
-    font-family: 'Bitter';
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: -0.011em;
-    padding-bottom: 15px;
-    color: #ACBFD8;
-}
-
-.function-text, .fashion-text, .features-text, .finish-text {
-    font-family: 'Poppins';
+    justify-content: center;
+    align-items: center;
+    background: #F7D633;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
     font-size: 16px;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: -0.011em;
-    color: #FFFFFF;
-    padding-bottom: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #2E190F;
 }
 
-.explore-function-left, .explore-fashion-left, .explore-features-rigth, .explore-finish-rigth {
-    font-family: 'Poppins';
+.svg-sites {
+    padding-top: 57px;
+}
+
+.padd-svg {
+    margin-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    padding-top: 104px;
+}
+
+.navigation > a {
+    font-family: 'Montserrat';
     font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: -0.011em;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
     color: #FFFFFF;
+    padding-right: 30px;
 }
 
-.function-left {
-    padding-bottom: 73px;
+.padd-none {
+    padding: 0;
 }
 
-.features-rigth {
-    padding-bottom: 40px;
+.reserved {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    padding-top: 29px;
+    color: #2E190F;
 }
 
-.text-left, .text-rigth {
-    padding-top: 20px;
+.taco-positions {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: -152px;
 }
 
-.text-rigth {
-    max-width: 315px;
+.other-positions {
+    position: absolute;
+    bottom: 10px;
     width: 100%;
 }
 
-.img-jeans > img {
-    mix-blend-mode: overlay;
-    height: 490px;
-    width: 395px;
+.other-positions > img {
+    width: 100%;    
 }
 
-@media (max-width: 850px) {
-    .display-jean {
-        display: block;
-        padding: 0px 20px;
+.other-img-position {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.other-img-position > img {
+    width: 100%;
+}
+
+@media (max-width:1050px) {
+    .taco-positions {
+        top: 0;
     }
-    .img-jean-responsive {
-        display: flex;
-        justify-content: center;
-        min-height: 418px;
-        max-width: 375px;
-        width: 100%;
-        margin: auto;
-        padding: 0px 20px;
+    .taco-positions > img {
+        width: 220px;
     }
-    .img-jean-responsive > img {
-        min-height: 418px;
-        max-width: 375px;
-        width: 100%;
+}
+
+@media (max-width:750px) {
+    .taco-positions {
+        position: relative;
+        margin-top: 120px;
     }
-    .img-jeans {
+    .navigation {
+        flex-direction: column;
+        padding: 62px 0px 11px 0px;
+    }
+    .navigation > a {
+        padding: 0px 0px 23px 0px;
+        text-align: center;
+    }
+    .other-positions {
         display: none;
     }
-    span {
-        height: 28px;
-        width: 30px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px transparent;
-        border-radius: 50%;
-        background: rgba(172, 191, 216, 0.4);
-        font-family: 'Bitter';
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 22px;
-        letter-spacing: -0.011em;
-        color: #FFFFFF;
-        margin-right: 16px;
+    .other-img-position {
+        bottom: 398px;
     }
-    .function, .fashion, .features, .finish {
+    .taco-positions > img {
+        width: 200px;
+    }
+}
+
+@media (max-width:428px) {
+    .fala {
+        font-size: 30px;
+    }
+    .reserved {
+        padding: 0;
+    }
+    .other-positions {
         display: flex;
-        align-items: center;
+        top: 14px;
+        width: max-content;
+        left: -298px;
     }
-    .title-wtf {
-        font-size: 50px;
+    .other-positions > img {
+        height: 185px;
     }
-    .ab-solution {
-        font-size: 18px;
+    .other-img-position {
+        bottom: 364px;
+    }
+    .taco-positions {
+        margin-top: 72px;
+    }
+    .button-variety {
+        max-width: 388px;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media (max-width:400px) {
+    .button-variety {
+        max-width: 277px;
+    }
+    .taco-positions > img {
+        width: 150px;
+    }
+    .other-img-position {
+        bottom: 295px;
+    }
+    .other-positions {
+        display: none;
     }
 }
